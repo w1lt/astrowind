@@ -65,7 +65,7 @@ export const headerData = {
       href: 'google.com',
     },
   ],
-  actions: [{ text: 'Message Us!', href: 'https://github.com/onwidget/astrowind', target: '_blank' }],
+  actions: [{ text: 'Join our Discord!', href: 'https://github.com/onwidget/astrowind', target: '_blank' }],
 };
 
 export const footerData = {
