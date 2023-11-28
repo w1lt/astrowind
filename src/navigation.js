@@ -8,7 +8,7 @@ export const headerData = {
     },
 
     {
-      text: 'Blog',
+      text: 'Schedule',
       href: 'https://acmatku.github.io/',
     },
     {
@@ -16,7 +16,7 @@ export const headerData = {
       href: getPermalink('/tutoring'),
     },
   ],
-  actions: [{ text: 'Discord', href: 'https://discord.com/invite/yhRshEnJUB', target: '_blank' }],
+  actions: [{ text: 'Discord', href: 'https://.com/invite/yhRshEnJUB', target: '_blank' }],
 };
 
 export const footerData = {

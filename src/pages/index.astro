@@ -22,7 +22,10 @@ const metadata = {
   <!-- Hero Widget ******************* -->
 
   <Hero
-    actions={[{ text: 'Learn more', href: '#about-us' }]}
+    actions={[
+      { text: 'Learn more', href: '#about-us' },
+      { text: 'Join the Discord', href: 'https://discord.com/invite/yhRshEnJUB', target: '_blank', variant: 'primary' },
+    ]}
     image={{ src: '~/assets/images/hero.jpg', alt: 'AstroWind Hero Image' }}
   >
     <Fragment slot="title">ACM @ KU</Fragment>
@@ -32,9 +35,6 @@ const metadata = {
         <span class="font-semibold">ACM</span> brings together computing educators, researchers, and professionals to
         inspire dialogue, share resources, and address the field's challenges.</span
       >
-      <span class="block mb-1 sm:hidden font-bold text-blue-600">AstroWind: Production-ready.</span>
-       Suitable for Startups, Small Business, SaaS websites, Professional Portfolios, Marketing websites, Landing Pages
-      & Blogs.
     </Fragment>
   </Hero>
 
