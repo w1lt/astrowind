@@ -4,7 +4,7 @@ export const headerData = {
   links: [
     {
       text: 'About Us',
-      href: getPermalink('/#about-us'),
+      href: getPermalink('/'),
     },
 
     {
