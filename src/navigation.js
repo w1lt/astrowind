@@ -8,8 +8,8 @@ export const headerData = {
     },
 
     {
-      text: 'Schedule',
-      href: 'https://acmatku.github.io/',
+      text: 'Calendar',
+      href: getPermalink('/calendar'),
     },
     {
       text: 'Tutoring',
