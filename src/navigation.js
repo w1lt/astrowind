@@ -15,6 +15,10 @@ export const headerData = {
       text: 'Tutoring',
       href: getPermalink('/tutoring'),
     },
+    {
+      text: 'Officers',
+      href: getPermalink('/officers'),
+    },
   ],
   actions: [{ text: 'Discord', href: 'https://discord.com/invite/yhRshEnJUB', target: '_blank' }],
 };
